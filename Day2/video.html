@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Grid Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); 
+      gap: 20px; 
+      padding: 20px;
+    }
+
+    
+    .grid-item {
+      background-color: #f0f0f0;
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    
+    video {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="text-align: center;">Video Gallery</h1>
+
+  <div class="container">
+    
+    <div class="grid-item">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        
+      </video>
+    </div>
+
+   
+    <div class="grid-item">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+       
+      </video>
+    </div>
+
+    
+    <div class="grid-item">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        
+      </video>
+    </div>
+
+    
+    <div class="grid-item">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        
+      </video>
+    </div>
+
+    
+    <div class="grid-item">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+        
+      </video>
+    </div>
+
+    
+    <div class="grid-item">
+      <video controls>
+        <source src="video1.mp4" type="video/mp4">
+       
+      </video>
+    </div>
+  </div>
+
+</body>
+</html>
