@@ -1,0 +1,173 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.grid-cont{
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    
+}
+
+.grid-items{
+    border: 4px solid blue;
+    background-color: aqua;
+   
+
+}
+
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item7{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item8{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+img{
+    align-content: space-around;
+}
+
+.header{
+    display: flex;
+ }
+ 
+ a{
+     background-color: rgb(42, 110, 165);
+     font-size: 40px;
+     border: 5px solid rgb(204, 255, 0);
+     border-radius: 12px;
+     text-decoration: none;
+ 
+ }
+ a:hover{
+     background-color: cornflowerblue;
+     color: aliceblue;
+ }
+
+ button{
+    padding-left: 50px;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    color: #bf1882;
+}
+
+.footer-section p, 
+.footer-section ul {
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.footer-links {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.footer-links li {
+    margin: 0 10px;
+}
+
+.footer-links li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-links li {
+        margin: 5px 0;
+    }
+}
+
+.news-ticker {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.news-ticker p {
+    display: inline-block;
+    padding-left: 100%;
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+    font-size: 18px;
+}
+
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+}
+
