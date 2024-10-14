@@ -10,3 +10,9 @@ function validate(){
 
 
 }
+
+function display(){
+    let p1=document.querySelector("p");
+    p1.innerHTML="Result";
+    p1.style.backgroundColor="red";
+}
